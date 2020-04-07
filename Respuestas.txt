@@ -1,1 +1,2 @@
-No puedo ver el archivo tp2_1_2.cpp en la carpeta donde está el repositorio, ya que dicho archivo se encuentra en otra rama del proyecto.
+No puedo ver el archivo tp2_1_2.cpp en la carpeta donde está el repositorio, ya que dicho archivo se encuentra en otra rama del proyecto. El comando gitk -all
+está bugueado y no puedo usarlo GG

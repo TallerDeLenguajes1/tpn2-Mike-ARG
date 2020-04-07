@@ -9,7 +9,7 @@ int main() {
     int f,c;
     double mt[N][M];
     double *punt;
-    punt = &mt[N][M];
+    punt = &mt[0][0];
 
     for (f = 0; f < N; f++) {
         for (c = 0; c < M; c++) {
