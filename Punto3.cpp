@@ -10,14 +10,25 @@ int main() {
     int i, j;
 
     int matriz[X][Y];
+    int pares[X];
 
     for (i = 0; i < X; i++) {
+        int CantPares = 0;
         for (j = 0; j < Y; j++) {
             matriz[i][j] = rand() % 900 + 100;
             printf("%d ", matriz[i][j]);
+            if (matriz[i][j] % 2 == 0) {
+                CantPares++;
+            }
         }
+        pares[i] = CantPares;
         printf("\n");
     }
+    printf("\nCantidad de números pares por fila: ");
+    for (i = 0; i < X; i++) {
+        printf("%d ", pares[i]);
+    }
+
     getchar();
     return 0;
 }
