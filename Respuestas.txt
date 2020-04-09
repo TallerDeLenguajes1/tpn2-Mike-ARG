@@ -1,0 +1,4 @@
+F) No puedo ver el archivo tp2_1_2.cpp en la carpeta donde está el repositorio, ya que dicho archivo se encuentra en otra rama del proyecto.
+
+J) Noto que el archivo Respuestas.txt fue alojado en la rama Opcion_2.
+
