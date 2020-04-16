@@ -32,7 +32,8 @@ int main() {
     fflush(stdin);
     printf("\n\n");
 
-    compu compu1[N];
+    compu *compu1;
+    compu1 = (compu *)malloc (N*sizeof(compu));
     compu *arreglo;
     arreglo = compu1;
 
