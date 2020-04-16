@@ -34,14 +34,16 @@ int main() {
 
     compu *compu1;
     compu1 = (compu *)malloc (N*sizeof(compu));
-    compu *arreglo;
-    arreglo = compu1;
+    //compu *arreglo;
+    //arreglo = compu1;
 
 
-    cargarArreglo(arreglo, N);
-    mostrarPCs(arreglo, N);
-    PCvieja(arreglo, N);
-    PCveloz(arreglo, N);
+    cargarArreglo(compu1, N);
+    mostrarPCs(compu1, N);
+    PCvieja(compu1, N);
+    PCveloz(compu1, N);
+
+    free(compu1);
 
     getchar();
     return 0;
